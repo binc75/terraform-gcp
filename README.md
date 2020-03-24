@@ -36,7 +36,7 @@ gcloud projects add-iam-policy-binding  $project_id --member serviceAccount:srv-
 gcloud projects add-iam-policy-binding  $project_id --member serviceAccount:srv-account@$project_id.iam.gserviceaccount.com --role roles/compute.admin
 gcloud projects add-iam-policy-binding  $project_id --member serviceAccount:srv-account@$project_id.iam.gserviceaccount.com --role roles/iam.serviceAccountUser
 gcloud projects add-iam-policy-binding  $project_id --member serviceAccount:srv-account@$project_id.iam.gserviceaccount.com --role roles/resourcemanager.projectIamAdmin
-### For full access (project owner grants)
+### For full access (project owner grants, easy ;-))
 ### gcloud projects add-iam-policy-binding  $project_id --member serviceAccount:srv-account@$project_id.iam.gserviceaccount.com --role roles/owner
 
 # Enable the Google Cloud APIs we will use 
